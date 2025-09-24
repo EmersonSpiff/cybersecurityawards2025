@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
               View Awards
             </button>
             <button className="btn btn-secondary">
-              Nominate Now
+              Give Now
             </button>
           </div>
         </div>
