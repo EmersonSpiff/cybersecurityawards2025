@@ -12,6 +12,7 @@ const Header: React.FC = () => {
           <a href="#home" className="nav-link">Home</a>
           <a href="#awards" className="nav-link">Awards</a>
           <a href="#nominees" className="nav-link">Nominees</a>
+          <a href="#sponsors" className="nav-link">Sponsors</a>
         </div>
       </nav>
     </header>

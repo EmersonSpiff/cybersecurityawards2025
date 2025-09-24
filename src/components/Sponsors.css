@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-.nominees {
+.sponsors {
   position: relative;
   min-height: 100vh;
   padding: 4rem 0;
   z-index: 1;
 }
 
-.nominees-content {
+.sponsors-content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
   color: #ffffff;
 }
 
-.nominees-title {
+.sponsors-title {
   font-family: 'Cormorant Garamond', serif;
   font-size: 4rem;
   font-weight: 700;
@@ -24,31 +24,25 @@
   text-shadow: 0 0 30px rgba(194, 104, 255, 0.5);
 }
 
-.nominees-intro {
-  text-align: center;
-  margin-bottom: 4rem;
-  padding: 2rem;
-  background: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(194, 104, 255, 0.2);
-  border-radius: 16px;
-  backdrop-filter: blur(10px);
-}
-
-.nominees-intro p {
+.sponsors-intro {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.4rem;
-  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 4rem;
   color: #e0e0e0;
-  margin: 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
 }
 
-.nominees-categories {
+.sponsor-categories {
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
 
-.category {
+.sponsor-category {
   background: rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(194, 104, 255, 0.2);
   border-radius: 16px;
@@ -65,73 +59,69 @@
   text-shadow: 0 0 20px rgba(194, 104, 255, 0.4);
   border-bottom: 2px solid rgba(194, 104, 255, 0.3);
   padding-bottom: 0.5rem;
+  text-align: center;
 }
 
-.nominees-grid {
+.sponsor-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
+  align-items: center;
+  justify-items: center;
 }
 
-.nominee-card {
+.sponsor-card {
   background: rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(194, 104, 255, 0.3);
   border-radius: 12px;
   padding: 2rem;
   transition: all 0.3s ease;
   backdrop-filter: blur(5px);
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.nominee-card:hover {
+.sponsor-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(194, 104, 255, 0.2);
   border-color: rgba(194, 104, 255, 0.5);
 }
 
-.nominee-card h4 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #c268ff;
-  margin-bottom: 0.5rem;
-  text-shadow: 0 0 10px rgba(194, 104, 255, 0.3);
+.sponsor-logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.nominee-card h4 a {
-  color: #c268ff;
-  text-decoration: none;
+.sponsor-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: brightness(0.9);
   transition: all 0.3s ease;
 }
 
-.nominee-card h4 a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 15px rgba(194, 104, 255, 0.6);
-}
-
-.nominee-card p {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.2rem;
-  color: #e0e0e0;
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
-}
-
-.nominee-card p:last-child {
-  margin-bottom: 0;
-  font-style: italic;
-  opacity: 0.8;
+.sponsor-card:hover .sponsor-logo img {
+  filter: brightness(1.1);
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
-  .nominees {
+  .sponsors {
     padding: 2rem 0;
   }
   
-  .nominees-content {
+  .sponsors-content {
     padding: 0 1rem;
   }
   
-  .nominees-title {
+  .sponsors-title {
     font-size: 2.8rem;
   }
   
@@ -139,24 +129,17 @@
     font-size: 2rem;
   }
   
-  .nominees-intro p {
+  .sponsors-intro {
     font-size: 1.2rem;
   }
   
-  .nominees-grid {
-    grid-template-columns: 1fr;
+  .sponsor-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
   }
   
-  .nominee-card {
+  .sponsor-card {
     padding: 1.5rem;
-  }
-  
-  .nominee-card h4 {
-    font-size: 1.4rem;
-  }
-  
-  .nominee-card p {
-    font-size: 1.1rem;
+    height: 150px;
   }
 }

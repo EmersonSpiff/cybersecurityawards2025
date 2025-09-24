@@ -46,19 +46,19 @@ const Nominees: React.FC = () => {
             <h3 className="category-title">Cybersecurity Company to Watch Award</h3>
             <div className="nominees-grid">
               <div className="nominee-card">
-                <h4>Epoch, Inc.</h4>
+                <h4><a href="https://epochinc.com" target="_blank" rel="noopener noreferrer">Epoch, Inc.</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>Hopper Security</h4>
+                <h4><a href="https://hoppersecurity.com" target="_blank" rel="noopener noreferrer">Hopper Security</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>Minerva Cyber Technologies</h4>
+                <h4><a href="https://minervacyber.com" target="_blank" rel="noopener noreferrer">Minerva Cyber Technologies</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>Pixee</h4>
+                <h4><a href="https://pixee.co" target="_blank" rel="noopener noreferrer">Pixee</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>RedZone Technologies</h4>
+                <h4><a href="https://redzonetech.com" target="_blank" rel="noopener noreferrer">RedZone Technologies</a></h4>
               </div>
             </div>
           </div>
@@ -67,13 +67,13 @@ const Nominees: React.FC = () => {
             <h3 className="category-title">Cybersecurity Defender of the Year Award</h3>
             <div className="nominees-grid">
               <div className="nominee-card">
-                <h4>ePlus, Inc.</h4>
+                <h4><a href="https://eplus.com" target="_blank" rel="noopener noreferrer">ePlus, Inc.</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>RedZone Technologies</h4>
+                <h4><a href="https://redzonetech.com" target="_blank" rel="noopener noreferrer">RedZone Technologies</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>SharkStriker, Inc.</h4>
+                <h4><a href="https://sharkstriker.com" target="_blank" rel="noopener noreferrer">SharkStriker, Inc.</a></h4>
               </div>
             </div>
           </div>
@@ -82,13 +82,13 @@ const Nominees: React.FC = () => {
             <h3 className="category-title">Changemaker of the Year Award</h3>
             <div className="nominees-grid">
               <div className="nominee-card">
-                <h4>Ardent Privacy</h4>
+                <h4><a href="https://ardentprivacy.com" target="_blank" rel="noopener noreferrer">Ardent Privacy</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>Camelot Secure</h4>
+                <h4><a href="https://camelotsecure.com" target="_blank" rel="noopener noreferrer">Camelot Secure</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>Defense Interns</h4>
+                <h4><a href="https://defenseinterns.org" target="_blank" rel="noopener noreferrer">Defense Interns</a></h4>
               </div>
             </div>
           </div>
@@ -97,13 +97,13 @@ const Nominees: React.FC = () => {
             <h3 className="category-title">Cybersecurity Innovation of the Year Award</h3>
             <div className="nominees-grid">
               <div className="nominee-card">
-                <h4>Camelot Secure</h4>
+                <h4><a href="https://camelotsecure.com" target="_blank" rel="noopener noreferrer">Camelot Secure</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>Hopper Security</h4>
+                <h4><a href="https://hoppersecurity.com" target="_blank" rel="noopener noreferrer">Hopper Security</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>X-PHY, Inc.</h4>
+                <h4><a href="https://x-phy.com" target="_blank" rel="noopener noreferrer">X-PHY, Inc.</a></h4>
               </div>
             </div>
           </div>
@@ -130,19 +130,19 @@ const Nominees: React.FC = () => {
             <h3 className="category-title">Government Contractor of the Year</h3>
             <div className="nominees-grid">
               <div className="nominee-card">
-                <h4>BreakPoint Labs</h4>
+                <h4><a href="https://breakpointlabs.com" target="_blank" rel="noopener noreferrer">BreakPoint Labs</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>BTS Software Solutions</h4>
+                <h4><a href="https://btssoftwaresolutions.com" target="_blank" rel="noopener noreferrer">BTS Software Solutions</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>DigiFlight</h4>
+                <h4><a href="https://digiflight.com" target="_blank" rel="noopener noreferrer">DigiFlight</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>Itegrity, Inc.</h4>
+                <h4><a href="https://itegrity.com" target="_blank" rel="noopener noreferrer">Itegrity, Inc.</a></h4>
               </div>
               <div className="nominee-card">
-                <h4>RealmOne</h4>
+                <h4><a href="https://realmone.com" target="_blank" rel="noopener noreferrer">RealmOne</a></h4>
               </div>
             </div>
           </div>

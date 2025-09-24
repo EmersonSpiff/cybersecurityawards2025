@@ -10,9 +10,8 @@ const Awards: React.FC = () => {
         <div className="speakers-section">
           <h3 className="section-heading">Distinguished Speakers</h3>
           <ul className="speakers-list">
-            <li>The Hon. Marc Elrich, County Executive, Montgomery County</li>
+            <li>County Executive Marc Elrich, County Executive, Montgomery County</li>
             <li>Tasha Cornish, Executive Director, Cybersecurity Association</li>
-            <li>Linda Conrad, SVP, Operational and Technical Risk, First Citizens Bank</li>
             <li>Chuck Faughnan, CEO, Personam.ai</li>
             <li>Kim Mentzell, Director of Cybersecurity and Lead for Emerging Technologies, Maryland Department of Commerce</li>
             <li>Sam Bell, CISO, Edwards Performance Solutions</li>
