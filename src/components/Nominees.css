@@ -97,17 +97,6 @@
   text-shadow: 0 0 10px rgba(194, 104, 255, 0.3);
 }
 
-.nominee-card h4 a {
-  color: #c268ff;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.nominee-card h4 a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 15px rgba(194, 104, 255, 0.6);
-}
-
 .nominee-card p {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.2rem;
