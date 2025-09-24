@@ -1,0 +1,10 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Global styles for the app */
+* {
+  box-sizing: border-box;
+}
