@@ -3,6 +3,8 @@ import './App.css';
 import BackgroundAnimation from './components/BackgroundAnimation';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Awards from './components/Awards';
+import Nominees from './components/Nominees';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <BackgroundAnimation />
       <Header />
       <Hero />
+      <Awards />
+      <Nominees />
     </div>
   );
 }

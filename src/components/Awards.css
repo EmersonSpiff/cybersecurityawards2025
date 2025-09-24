@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.awards {
+  position: relative;
+  min-height: 100vh;
+  padding: 4rem 0;
+  z-index: 1;
+}
+
+.awards-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  color: #ffffff;
+}
+
+.awards-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #c268ff;
+  text-shadow: 0 0 30px rgba(194, 104, 255, 0.5);
+}
+
+.section-heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #c268ff;
+  text-shadow: 0 0 20px rgba(194, 104, 255, 0.4);
+  border-bottom: 2px solid rgba(194, 104, 255, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.speakers-section,
+.regional-awards,
+.red-carpet-awards,
+.peoples-choice,
+.closing-remarks {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(194, 104, 255, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+
+.speakers-list,
+.awards-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.speakers-list li,
+.awards-list li {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(194, 104, 255, 0.1);
+  color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.speakers-list li:last-child,
+.awards-list li:last-child {
+  border-bottom: none;
+}
+
+.speakers-list li:hover,
+.awards-list li:hover {
+  color: #c268ff;
+  text-shadow: 0 0 10px rgba(194, 104, 255, 0.3);
+  transform: translateX(10px);
+}
+
+.peoples-choice,
+.closing-remarks {
+  text-align: center;
+}
+
+.peoples-choice .section-heading,
+.closing-remarks .section-heading {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .awards {
+    padding: 2rem 0;
+  }
+  
+  .awards-content {
+    padding: 0 1rem;
+  }
+  
+  .awards-title {
+    font-size: 2.8rem;
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+  }
+  
+  .speakers-list li,
+  .awards-list li {
+    font-size: 1.2rem;
+  }
+  
+  .speakers-section,
+  .regional-awards,
+  .red-carpet-awards,
+  .peoples-choice,
+  .closing-remarks {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}

@@ -50,10 +50,10 @@
 
 .line {
   position: absolute;
-  background: linear-gradient(45deg, #c268ff, #a855f7, #c268ff);
+  background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
   height: 2px;
   border-radius: 1px;
-  box-shadow: 0 0 10px rgba(194, 104, 255, 0.5);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
   animation: lineFlow 8s ease-in-out infinite;
 }
 
@@ -153,9 +153,9 @@
   position: absolute;
   width: 3px;
   height: 3px;
-  background: radial-gradient(circle, #c268ff, #a855f7);
+  background: radial-gradient(circle, #FFD700, #FFA500);
   border-radius: 50%;
-  box-shadow: 0 0 6px rgba(194, 104, 255, 0.8);
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
   animation: particleFloat 6s ease-in-out infinite;
 }
 
