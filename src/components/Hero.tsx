@@ -16,12 +16,12 @@ const Hero: React.FC = () => {
             showcase the brightest minds and most impactful solutions.
           </p>
           <div className="hero-buttons">
-            <button className="btn btn-primary">
+            <a href="#awards" className="btn btn-primary">
               View Awards
-            </button>
-            <button className="btn btn-secondary">
-              Give Now
-            </button>
+            </a>
+            <a href="http://cyber-association.com/become-member" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+              Become a Member
+            </a>
           </div>
         </div>
         <div className="hero-stats">

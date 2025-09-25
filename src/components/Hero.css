@@ -73,6 +73,9 @@
   letter-spacing: 1px;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .btn::before {
