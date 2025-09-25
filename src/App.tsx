@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Awards from './components/Awards';
 import Nominees from './components/Nominees';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Awards />
       <Nominees />
+      <Footer />
     </div>
   );
 }
